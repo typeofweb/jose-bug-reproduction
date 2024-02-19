@@ -1,0 +1,22 @@
+{
+  "name": "supp-31",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev --port 3000"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "4.20240208.0",
+    "typescript": "5.3.3",
+    "wrangler": "3.28.3"
+  },
+  "dependencies": {
+    "@types/node": "20.11.19",
+    "jose": "5.2.2"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=8.12.2"
+  }
+}
